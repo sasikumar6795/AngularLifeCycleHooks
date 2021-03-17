@@ -4,6 +4,7 @@
   <button (click) ="increment()" >Increase</button>
   <button (click) ="decrement()" >Decrease</button>
 
-  <app-child [myNewNumber] = "getNumber()"  [myName]="name"></app-child>
+  <app-child [myNewNumber] = "getNumber()"  [myName]="user"></app-child>
+  <a (click)="updateName()">update</a>
 
 </h2>
